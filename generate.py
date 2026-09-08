@@ -27,7 +27,7 @@ import os
 
 from engine import Engine, SqlConnector, build_mock_sor
 
-USE_LLM = True          # flip to False to run offline without an API key
+USE_LLM = False          # flip to False to run offline without an API key
 MODEL = "claude-sonnet-5"   # any current model id; swap if your key lacks access
 
 
